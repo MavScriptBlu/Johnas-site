@@ -1,0 +1,224 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <!-- How to work with this doc: replace the comment tags with the appropriate element tags -->
+
+    <!-- 1) Use the following opening / closing tags to add a title to the web page tab: <title> </title> -->
+
+    <!--HTML Fundamentals-->
+
+    <!-- 2) Use the self closing tag to add a mall icon to the web page tab title: <link /> -->
+
+    <!-- rel="icon" href="../images/icons/favicon.png" type="image/png" -->
+
+    <!-- Last) Let's get rid of the browser's default styles. We'll use the following tag to link to an external CSS file: <link  /> -->
+
+    <!-- rel="stylesheet" href="../css/reset.css" -->
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="fundamentals-static.html">fundamentals-static</a></li>
+      </ul>
+    </nav>
+    <!-- 3) Remove the comment tags from  the <header> </header> tags.
+          We'll use the header element to contain (or group) content for the header of our webpage  -->
+
+    <!--<header id="top"> -->
+
+    <!-- 4) Use the following self closing tag to add an image: <img /> -->
+
+    <!-- src="../images/wd1.png" alt="logo" -->
+
+    <!-- 5) Use the following opening / closing tags to add a heading: <h1> </h1> -->
+
+    <!-- Web Design -->
+
+    <!-- </header> -->
+
+    <!-- 6) Remove the comment tags from the <nav> </nav> tags.
+          We'll use the nav element to contain (or group) content for the navigation of our webpage  -->
+
+    <!--<nav> -->
+
+    <!-- 7) Remove the comment tags from the <ul> </ul> tags.
+          We'll use the ul (unordered list) element for our navigation links  -->
+
+    <!--<ul> -->
+
+    <!-- 8) Use the following opening / closing tags to add a list item that will contain a hyperlink: <li> </li>
+            List elements includes a parent list element with list item children
+            Note that the content of the list item element is an <a> tab (anchor element) which will create a hyperlink
+            Note that inside the <a> tag is and <img> tag that will embed an image on the webpage -->
+
+    <!--<a href="../index.html"><img src="../images/icons/home.png" alt="home"> Home</a> -->
+
+    <!--</ul> -->
+
+    <!--</nav> -->
+
+    <section>
+      <div>
+        <h2>
+          <abbr title="HyperText Markup Language">HTML</abbr> Fundamentals
+        </h2>
+
+        <p>
+          HTML describes a document's content and structure and not its
+          appearance
+        </p>
+        <p>
+          Browser read and renders a page from top to bottom, so place elements
+          in the proper order.
+        </p>
+      </div>
+      <div>
+        <h3>Things to be aware of</h3>
+        <ol>
+          <li>
+            The browser doesn't care about whitespace in the markup file,
+            therefore, we format the markup so that it is human readable.
+          </li>
+          <li>
+            Comments can be added in the document and the browser will not
+            render it.
+          </li>
+          <li>Some tags have been deprecated so don't use them.</li>
+          <li>
+            Follow the latest common practice and be aware when copying and
+            pasting old markup.
+          </li>
+          <li>Check for browser compatibility on the newer stuff.</li>
+          <li>
+            Browsers have built-in styles. CSS is used to style a webpage.
+          </li>
+          <li>
+            Understand if an element is a block element or an inline element.
+          </li>
+          <li>
+            Use grouping elements to group content so its easier to position and
+            style the content on the web page.
+          </li>
+          <li>
+            <strong>The most important thing</strong> is that browsers will not
+            catch your markup mistakes. It will try to still render the content
+            and it might still look right.
+          </li>
+        </ol>
+      </div>
+      <div>
+        <h3>Character Sets and Special Characters</h3>
+
+        <!--
+          - dl: description list
+            - dt: term
+            - dd: description
+
+          - common use: a key-value pair items like glossary
+        -->
+        <dl>
+          <dt>Character Set</dt>
+          <dd>
+            A collection of characters and symbols rendered by the browser
+          </dd>
+          <dt>Character Encoding</dt>
+          <dd>
+            Associates each character from a character set that can be stored
+            and read by a computer program
+          </dd>
+          <dt>Character Entity Reference</dt>
+          <dd>
+            Used to insert special symbols that are reserved characters in HTML
+            or has no keyboard entry
+          </dd>
+          <dd>
+            Examples: <span>Non-breaking space: &nbsp;&nbsp;&nbsp;&nbsp;</span
+            ><span>Copyright: &copy;</span>
+          </dd>
+          <!--
+              - Character Entity is used to display either
+                - reserved characters in html like the angle brackets which are used as markup
+                - or, invisible characters
+                  - non-breaking space
+                - or, other characters not represented by some kind of input (keyboard input)
+                  - copyright
+
+                - Common entities on w3schools
+                  - https://www.w3schools.com/html/html_entities.asp
+                ref: https://dev.w3.org/html5/html-author/charref
+            -->
+        </dl>
+      </div>
+    </section>
+    <article>
+      <h3>Quote of the day</h3>
+      <blockquote>
+        It does not matter how slow you go, as long as you do not stop
+      </blockquote>
+      <cite>- Confucius</cite>
+      <h3>Images of the day</h3>
+      <img src="../images/tree.JPG" alt="tree" />
+      <img src="../images/cloud.JPG" alt="cloud" />
+    </article>
+    <aside>
+      <h3>Additional Resources</h3>
+      <ul>
+        <!-- These hyperlink indicates that these are links to resources on the web
+          target attribute indicates to open the webpage in a new tab -->
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+            target="_blank"
+            >HTML Reference on MDN Web Docs</a
+          >
+        </li>
+        <li>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank"
+            >HTML Tutorial on W3schools</a
+          >
+        </li>
+        <li>
+          <a href="https://www.w3docs.com/learn-html.html" target="_blank"
+            >Learn HTML on w3docs</a
+          >
+        </li>
+        <li>
+          <a href="https://validator.w3.org/" target="_blank">HTML Validator</a>
+        </li>
+        <li>
+          <a href="https://jigsaw.w3.org/css-validator/" target="_blank"
+            >CSS Validator</a
+          >
+        </li>
+      </ul>
+    </aside>
+    <footer>
+      <address>
+        <!-- This hyperlink indicates that this is an email address -->
+        <a href="mailto:me@memyselfandi.com">me@memyselfandi.com</a><br />
+
+        <!-- This hyperlink indicates that this is a phone number -->
+        <a href="tel:+15555555555">(555) 555-5555</a>
+
+        <p>
+          555 Fake Street South<br />
+          My City, ST 12345
+        </p>
+      </address>
+
+      <!-- Notice the copyright symbol here. 
+          Go to the file 2_inserting-emojis-and-symbols.txt in your resources folder to learn how to insert emojis and symbols
+      -->
+
+      <p>© 2022 Web Design 1</p>
+
+      <!-- This hyperlink links to a section on the same page. Clicking on this link will jump to that element that has the id of #top -->
+      <a href="#top">Go to Top</a>
+    </footer>
+  </body>
+</html>
