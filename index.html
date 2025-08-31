@@ -1,62 +1,145 @@
-<!doctype html>
+<!-- @format -->
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
-    <meta name="description" content="My Professional Profile">
-    <meta name="author" content="Your Name">
-    <link rel="stylesheet" href="css/reset.css">
-    <title>My Professional Profile</title> <!-- Add a suitable title -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/icons/Favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Darien's Professional Profile" />
+    <meta name="author" content="Darien Johnas" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Darien Johnas - Professional Profile</title>
   </head>
+
   <body>
+    <header id="top">
+      <img src="images/wd1.png" alt="logo" />
+
+      <h1>Darien Johnas</h1>
+      <h2>Web Design</h2>
+    </header>
+
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="pages/fundamentals-static.html">fundamentals-static</a></li>
-              </ul>
+        <li>
+          <a href="pages/fundamentals-static.html">fundamentals-static</a>
+        </li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
     </nav>
-    <!-- Use H1 for your main heading -->
-    <h1>About Me</h1> 
-    
-    <!-- Add sub-headings for different sections using H2 to H6 -->
-    <h2>Professional Summary</h2>
 
-    <!-- Write a paragraph introducing yourself -->
-    <p>I am a passionate and dedicated professional with a background in...</p>
+    <h3>Professional Summary</h3>
+    <div class="about_summary"><strong>From Factory Floors to Debugging Wars</strong></div>
+    <p>
+I’m a software engineer-in-training with a knack for turning breakdowns into breakthroughs. After leading in manufacturing, I brought that same servant-leader energy into tech—documenting every log, tracing every error, and finding the story inside the system. I thrive on step-by-step problem solving, but I’m not afraid to think outside the box (or rewire it if needed).
+      Hi, I’m Darien Johnas — a software engineer student at Mid-State Tech.
+      I’ve transitioned from a background in manufacturing leadership into tech
+      because of medical challenges, and I’m passionate about bringing
+      servant-leader energy into problem-solving, IT support, and coding
+      projects.
+    </p>
 
-    <!-- Create a hyperlink to your LinkedIn profile or personal website -->
-    <p>Find more about my professional journey on <a href="your-linkedin-url">LinkedIn</a>.</p>
+    <p>
+      Find more about my professional journey on
+      <a href="https://linkedin.com/in/darien-blue">LinkedIn</a> or check out my
+      projects on <a href="https://github.com/iiBamBlue">GitHub</a>.
+    </p>
 
-    <!-- Embed a professional image.  If you don't have one, create an avatar using AI -->
-    <img src="path-to-your-image.jpg" alt="Professional Headshot">
+    <!-- Updated image with styling class -->
+    <img
+      src="images/profileAvatar.jpg"
+      alt="Darien's Selfie"
+      class="profile-pic" />
 
-    <!-- Use an unordered list for skills or hobbies -->
+      <section id="skills">
     <h3>Skills</h3>
     <ul>
-      <li>Skill 1</li>
-      <li>Skill 2</li>
-      <li>Skill 3</li>
+      <li>HTML, CSS, and JavaScript</li>
+      <li>React, TypeScript, and Vite</li>
+      <li>Windows Diagnostics & .NET Troubleshooting</li>
+      <li>Servant Leadership & Team Collaboration</li>
+      <li>Problem-Solving and Documentation</li>
     </ul>
 
-    <!-- Use an ordered list for your work experience or education timeline -->
+    <section id="experience">
     <h3>Experience</h3>
     <ol>
-      <li>Most recent or current job role</li>
-      <li>Previous job role</li>
-      <li>Another previous role</li>
+      <li>
+        IT Support Assistant – troubleshooting systems, Windows services, and
+        end-user issues
+      </li>
+      <li>
+        Manufacturing Team Lead – applying servant leadership and process
+        improvement
+      </li>
+      <li>
+        Software Engineer Student Projects – React portfolio, advocacy work, and
+        technical wins
+      </li>
     </ol>
+    </section>
 
-    <!-- Use divs to structure content into sections -->
-    <div>
-      <h4>Projects</h4>
-      <!-- Add project or hobby details here.  What fun things have you done? -->
-    </div>
+    <section id="projects">
+      <h4>Projects & Hobbies</h4>
+      <ul>
+        <li>
+          <a href="https://iibamblue.github.io/se_project_coffeeshop/"
+            >Craft & Brew Cafe</a
+          >
+          – A responsive coffee shop website with modern design, interactive
+          menu, and reservation system. Features smooth animations, mobile-first
+          design, and optimized performance.
+        </li>
+        <li>
+          <a href="https://iibamblue.github.io/se_project_todo-app/"
+            >Simple Todo App</a
+          >
+          – A minimalist todo app built with vanilla JavaScript and TypeScript.
+          Features form validation, unique task IDs, and real-time updates with
+          a smooth user experience. Allows user to create, delete, and persist
+          tasks in local storage.
+        </li>
+        <li>
+          <a href="https://iibamblue.github.io/se_project_spots"
+            >Spots. A Social Media Platform</a
+          >
+          – Spots is a responsive social media platform built with modern web
+          technologies. Features include interactive modals, responsive layouts
+          for all devices, and optimized performance with Webpack bundling.
+        </li>
+        <li>
+          <a href="https://iibamblue.github.io/DarienSCSSPortfolio/"
+            >Personal Portfolio</a
+          >
+          – A comprehensive portfolio website built with modern web
+          technologies, showcasing my development skills and project portfolio.
+          Features responsive design, interactive elements, and clean,
+          professional presentation of my work and experience.
+        </li>
+      </ul>
+      <p>
+        I’m building a personal website using React, TypeScript, and Vite to
+        showcase advocacy and technical work. I also enjoy experimenting with
+        CSS animations, creating coding tutorials for classmates, and exploring
+        how tech can empower people with unique challenges. When I’m not coding,
+        you’ll probably find me playing strategy games or enjoying photography.
+      </p>
+    </section>
 
-    <!-- Use span for inline styling or grouping -->
-    <span>Additional notes or highlights here.  Tell them why you took this class or program maybe.</span>
-
-    <!-- Add a line break where necessary -->
-    <br>
-
+    <span
+      >I’m taking this class to strengthen my foundation in web development,
+      have fun building projects, and prepare for my career pivot into tech
+      while bringing all of my lived experiences with me.</span
+    >
+    <br />
+    <footer class="footer">
+      <p class="copyright">&copy; 2025 MavScript</p>
+      <a href="#top">Go to Top</a>
+    </footer>
   </body>
 </html>

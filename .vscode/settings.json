@@ -1,3 +1,67 @@
 {
-    "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "liveServer.settings.root": "/",
+  "files.exclude": {
+    "src/**/*.css": true,
+    "src/**/*.css.map": true,
+    "**/*.css.map": true
+  },
+  "search.exclude": {
+    "node_modules/": true,
+    "src/**/*.css": true,
+    "src/**/*.css.map": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.edits.showCollapsed": true,
+  "[yaml]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "[clojure]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "[coffeescript]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "[instructions]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "[chatmode]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "[prompt]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "vscode-edge-devtools.useHttps": true,
+  "chat.todoListTool.enabled": true,
+  "github.copilot.chat.codesearch.enabled": true,
+  "terminal.integrated.suggest.enabled": true,
+  "chat.math.enabled": true,
+  "github.copilot.chat.newWorkspace.useContext7": true,
+  "editor.aiStats.enabled": true,
+  "inlineChat.notebookAgent": true,
+  "inlineChat.enableV2": true
 }
