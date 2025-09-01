@@ -15,113 +15,200 @@
 
   <body>
     <header id="top">
-      <img src="images/wd1.png" alt="logo" />
+      <img src="images/wd1.png" alt="logo" class="logo" />
 
-      <h1>Darien Johnas</h1>
-      <h2>Web Design</h2>
+      <div class="header-title">
+        <h1>Darien Johnas</h1>
+        <h2>Software Developer | Process Optimizer | Servant Leader</h2>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="pages/fundamentals-static.html">fundamentals-static</a>
+          </li>
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#skills">Core Strengths</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
+    <section id="aboutme">
+      <h3>Professional Summary</h3>
+      <p class="about_summary">
+        <b>From Factory Floors to Debugging Wars,</b>
+        didn't start in tech—I started on a factory floor, leading third-shift
+        crews and challenging systems that overlooked people. When health
+        changes forced a pivot, I didn't just adapt—I rebuilt. Today, I'm a
+        full-stack developer with a servant leader's heart, building automation
+        tools, intuitive interfaces, and team cultures that thrive. I believe
+        technology should serve people and I'm ready to bring that mission to
+        your team.
+      </p>
+      <div class="about_profile-container">
+        <img
+          src="images/profileAvatar.jpg"
+          alt="Darien's Selfie"
+          class="profile-pic"
+        />
+
+        <p class="about_links">
+          Find more about my professional journey on
+          <a href="https://linkedin.com/in/darien-blue">LinkedIn</a> <br />or
+          check out my projects on
+          <a href="https://github.com/iiBamBlue">GitHub</a>.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h3>Core Strengths</h3>
+      <ul class="skills-list">
         <li>
-          <a href="pages/fundamentals-static.html">fundamentals-static</a>
+          <b>Frontend Development:</b> React, TypeScript, Vite, JavaScript,
+          HTML5, CSS3
         </li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
+        <li><b>Backend Development:</b> Node.js, Express, MongoDB</li>
+        <li>
+          <b>Systems Troubleshooting:</b> Windows diagnostics, .NET errors,
+          service dependencies
+        </li>
+        <li>
+          <b>Process Optimization:</b> Preventive maintenance, documentation
+          reform, cross-team collaboration
+        </li>
+        <li>
+          <b>Leadership & Mentorship:</b> Onboarding, training, and
+          culture-building across shifts and disciplines
+        </li>
+        <li>
+          <b>Problem-Solving and Documentation:</b> Root Cause Analysis,
+          Technical Writing
+        </li>
       </ul>
-    </nav>
+    </section>
 
-    <h3>Professional Summary</h3>
-    <div class="about_summary"><strong>From Factory Floors to Debugging Wars</strong></div>
-    <p>
-I’m a software engineer-in-training with a knack for turning breakdowns into breakthroughs. After leading in manufacturing, I brought that same servant-leader energy into tech—documenting every log, tracing every error, and finding the story inside the system. I thrive on step-by-step problem solving, but I’m not afraid to think outside the box (or rewire it if needed).
-      Hi, I’m Darien Johnas — a software engineer student at Mid-State Tech.
-      I’ve transitioned from a background in manufacturing leadership into tech
-      because of medical challenges, and I’m passionate about bringing
-      servant-leader energy into problem-solving, IT support, and coding
-      projects.
-    </p>
-
-    <p>
-      Find more about my professional journey on
-      <a href="https://linkedin.com/in/darien-blue">LinkedIn</a> or check out my
-      projects on <a href="https://github.com/iiBamBlue">GitHub</a>.
-    </p>
-
-    <!-- Updated image with styling class -->
-    <img
-      src="images/profileAvatar.jpg"
-      alt="Darien's Selfie"
-      class="profile-pic" />
-
-      <section id="skills">
-    <h3>Skills</h3>
-    <ul>
-      <li>HTML, CSS, and JavaScript</li>
-      <li>React, TypeScript, and Vite</li>
-      <li>Windows Diagnostics & .NET Troubleshooting</li>
-      <li>Servant Leadership & Team Collaboration</li>
-      <li>Problem-Solving and Documentation</li>
-    </ul>
+    <section id="education">
+      <h3>Education</h3>
+      <ul class="education-list">
+        <li>
+          <b>Mid-State Technical College</b> - Associate of Arts and Sciences -
+          AAS, Computer Software Engineering (August 2025 - present)
+        </li>
+        <li>
+          <b>Udacity</b> - Nanodegree, Frontend Development Fundamentals (May
+          2025 - September 2025)
+        </li>
+        <li>
+          <b>Triple Ten</b> - Software Engineering (August 2024 - September
+          2025)
+        </li>
+        <li>
+          <b>Mid-State Technical College</b> - Undergraduate Certificate,
+          Precision Metal Machining (June 2025 - August 2025)
+        </li>
+      </ul>
+    </section>
 
     <section id="experience">
-    <h3>Experience</h3>
-    <ol>
-      <li>
-        IT Support Assistant – troubleshooting systems, Windows services, and
-        end-user issues
-      </li>
-      <li>
-        Manufacturing Team Lead – applying servant leadership and process
-        improvement
-      </li>
-      <li>
-        Software Engineer Student Projects – React portfolio, advocacy work, and
-        technical wins
-      </li>
-    </ol>
+      <h3>Experience</h3>
+      <ol class="experience-list">
+        <li>
+          <p class="job-title">
+            <b>
+              Piper Products, Inc. - Production Supervisor & Maintenance
+              Innovator
+            </b>
+          </p>
+          <p class="job-dates">June 2024 - August 2024</p>
+        </li>
+        <li>
+          <p class="job-title">
+            <b>
+              Crystal Finishing Systems, Inc. - Fabrication Lead & Multi-Skill
+              Trainer
+            </b>
+          </p>
+          <p class="job-dates">September 2023 - May 2024</p>
+        </li>
+        <li>
+          <p class="job-title">
+            <b>
+              Gordon Aluminum Industries, Inc. - Fabrication Lead, Quality
+              Specialist & CNC Machinist
+            </b>
+          </p>
+          <p class="job-dates">March 2020 - August 2023</p>
+        </li>
+        <li>
+          <p class="job-title">
+            <b> Sharp Art Tattoo - Tattoo Artist & IT Technician </b>
+          </p>
+          <p class="job-dates">September 2017 - October 2019</p>
+        </li>
+        <li>
+          <p class="job-title">
+            <b>
+              Sierra Pacific Industries - Machine Operator II & Cross-Training
+              Lead
+            </b>
+          </p>
+          <p class="job-dates">April 2014 - February 2017</p>
+        </li>
+      </ol>
     </section>
 
     <section id="projects">
-      <h4>Projects & Hobbies</h4>
-      <ul>
+      <h3>Projects & Hobbies</h3>
+      <ol class="project-list">
         <li>
           <a href="https://iibamblue.github.io/se_project_coffeeshop/"
-            >Craft & Brew Cafe</a
+            ><b>Craft & Brew Cafe</b></a
           >
-          – A responsive coffee shop website with modern design, interactive
-          menu, and reservation system. Features smooth animations, mobile-first
-          design, and optimized performance.
+          <p class="project-description">
+            A responsive coffee shop website with modern design, interactive
+            menu, and reservation system. Features smooth animations,
+            mobile-first design, and optimized performance.
+          </p>
         </li>
         <li>
           <a href="https://iibamblue.github.io/se_project_todo-app/"
-            >Simple Todo App</a
+            ><b>Simple Todo App</b></a
           >
-          – A minimalist todo app built with vanilla JavaScript and TypeScript.
-          Features form validation, unique task IDs, and real-time updates with
-          a smooth user experience. Allows user to create, delete, and persist
-          tasks in local storage.
+          <p class="project-description">
+            A minimalist todo app built with vanilla JavaScript and TypeScript.
+            Features form validation, unique task IDs, and real-time updates
+            with a smooth user experience. Allows user to create, delete, and
+            persist tasks in local storage.
+          </p>
         </li>
         <li>
           <a href="https://iibamblue.github.io/se_project_spots"
-            >Spots. A Social Media Platform</a
+            ><b>Spots. A Social Media Platform</b></a
           >
-          – Spots is a responsive social media platform built with modern web
-          technologies. Features include interactive modals, responsive layouts
-          for all devices, and optimized performance with Webpack bundling.
+          <p class="project-description">
+            Spots is a responsive social media platform built with modern web
+            technologies. Features include interactive modals, responsive
+            layouts for all devices, and optimized performance with Webpack
+            bundling.
+          </p>
         </li>
         <li>
           <a href="https://iibamblue.github.io/DarienSCSSPortfolio/"
-            >Personal Portfolio</a
+            ><b>Personal Portfolio</b></a
           >
-          – A comprehensive portfolio website built with modern web
-          technologies, showcasing my development skills and project portfolio.
-          Features responsive design, interactive elements, and clean,
-          professional presentation of my work and experience.
+          <p class="project-description">
+            A comprehensive portfolio website built with modern web
+            technologies, showcasing my development skills and project
+            portfolio. Features responsive design, interactive elements, and
+            clean, professional presentation of my work and experience.
+          </p>
         </li>
-      </ul>
+      </ol>
       <p>
         I’m building a personal website using React, TypeScript, and Vite to
         showcase advocacy and technical work. I also enjoy experimenting with
@@ -131,12 +218,6 @@ I’m a software engineer-in-training with a knack for turning breakdowns into b
       </p>
     </section>
 
-    <span
-      >I’m taking this class to strengthen my foundation in web development,
-      have fun building projects, and prepare for my career pivot into tech
-      while bringing all of my lived experiences with me.</span
-    >
-    <br />
     <footer class="footer">
       <p class="copyright">&copy; 2025 MavScript</p>
       <a href="#top">Go to Top</a>

@@ -1,17 +1,20 @@
 /** @format */
 
-header {
-  background-color: #a0bcdc;
-  color: white;
-  text-align: center;
+b,
+strong {
+  font-weight: bold;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 20px;
-  background-color: #f4f4f4;
-  color: #333;
+a {
+  color: #215fa5;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 h1,
@@ -22,12 +25,7 @@ h2 {
   color: #082f5b;
 }
 
-h2 {
-  border-bottom: #4a90e2 4px solid;
-}
-
-h3,
-h4 {
+h3 {
   text-align: center;
   border-bottom: 4px solid #4a90e2;
   font-weight: bold;
@@ -35,11 +33,61 @@ h4 {
   color: #4a90e2;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
+header,
+footer {
+  width: 100vw;
+  margin: 0;
+  padding: 1em 0; /* adjust as needed */
+  background-color: #222; /* or any color you prefer */
+  color: #fff; /* for contrast */
+  box-sizing: border-box;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+}
+
+header {
+  background-color: #a0bcdc;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+}
+
+.header-title {
+  margin: 25px 0 25px;
   text-align: center;
-  cursor: pointer;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  padding: 0 30px;
+}
+
+nav {
+  padding: 0 0 25px;
+  text-align: center;
+}
+
+.about_summary {
+  margin: 20px 0;
+  padding-left: 50px;
+  background-color: #e0f7fa;
+  border-left: 5px solid #4a90e2;
+}
+
+.about_profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .profile-pic {
@@ -52,13 +100,36 @@ nav ul {
   margin: 15px 0;
 }
 
+.education-list,
+.project-list {
+  border-right: 4px solid #4a90e2; /* styled border */
+}
+
+#experience,
+#skills {
+  background-color: #e0f7fa;
+}
+
+.experience-list,
+.skills-list {
+  padding-left: 20px;
+  border-left: 5px solid #4a90e2;
+}
+
+.job-title {
+  margin: 0;
+  color: #274c75;
+}
+
 footer.footer {
   padding: 25px 0;
+  text-align: center;
   background-color: #a0bcdc;
+  border-radius: 8px;
 }
 
 .copyright {
-  text-align: center;
+  padding-bottom: 20px;
   font-size: 0.8em;
   color: #777;
 }
