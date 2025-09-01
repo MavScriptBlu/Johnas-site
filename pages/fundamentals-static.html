@@ -1,23 +1,14 @@
-<!-- @format -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
-    <!-- How to work with this doc: replace the comment tags with the appropriate element tags -->
+    <title>HTML Fundamentals</title>
 
-    <!-- 1) Use the following opening / closing tags to add a title to the web page tab: <title> </title> -->
+    <link rel="icon" href="../images/icons/favicon.png" type="image/png" />
 
-    <!--HTML Fundamentals-->
-
-    <!-- 2) Use the self closing tag to add a mall icon to the web page tab title: <link /> -->
-
-    <!-- rel="icon" href="../images/icons/favicon.png" type="image/png" -->
-
-    <!-- Last) Let's get rid of the browser's default styles. We'll use the following tag to link to an external CSS file: <link  /> -->
-
-    <!-- rel="stylesheet" href="../css/reset.css" -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <nav>
@@ -26,41 +17,21 @@
         <li><a href="fundamentals-static.html">fundamentals-static</a></li>
       </ul>
     </nav>
-    <!-- 3) Remove the comment tags from  the <header> </header> tags.
-          We'll use the header element to contain (or group) content for the header of our webpage  -->
+    <header id="top">
+      <img src="../images/wd1.png" alt="logo" class="logo" />
 
-    <!--<header id="top"> -->
+      <h1 class="header-title">Web Design</h1>
+    </header>
 
-    <!-- 4) Use the following self closing tag to add an image: <img /> -->
-
-    <!-- src="../images/wd1.png" alt="logo" -->
-
-    <!-- 5) Use the following opening / closing tags to add a heading: <h1> </h1> -->
-
-    <!-- Web Design -->
-
-    <!-- </header> -->
-
-    <!-- 6) Remove the comment tags from the <nav> </nav> tags.
-          We'll use the nav element to contain (or group) content for the navigation of our webpage  -->
-
-    <!--<nav> -->
-
-    <!-- 7) Remove the comment tags from the <ul> </ul> tags.
-          We'll use the ul (unordered list) element for our navigation links  -->
-
-    <!--<ul> -->
-
-    <!-- 8) Use the following opening / closing tags to add a list item that will contain a hyperlink: <li> </li>
-            List elements includes a parent list element with list item children
-            Note that the content of the list item element is an <a> tab (anchor element) which will create a hyperlink
-            Note that inside the <a> tag is and <img> tag that will embed an image on the webpage -->
-
-    <!--<a href="../index.html"><img src="../images/icons/home.png" alt="home"> Home</a> -->
-
-    <!--</ul> -->
-
-    <!--</nav> -->
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html"
+            ><img src="../images/icons/home.png" alt="home" /> Home</a
+          >
+        </li>
+      </ul>
+    </nav>
 
     <section>
       <div>
@@ -114,13 +85,6 @@
       <div>
         <h3>Character Sets and Special Characters</h3>
 
-        <!--
-          - dl: description list
-            - dt: term
-            - dd: description
-
-          - common use: a key-value pair items like glossary
-        -->
         <dl>
           <dt>Character Set</dt>
           <dd>
@@ -140,18 +104,6 @@
             Examples: <span>Non-breaking space: &nbsp;&nbsp;&nbsp;&nbsp;</span
             ><span>Copyright: &copy;</span>
           </dd>
-          <!--
-              - Character Entity is used to display either
-                - reserved characters in html like the angle brackets which are used as markup
-                - or, invisible characters
-                  - non-breaking space
-                - or, other characters not represented by some kind of input (keyboard input)
-                  - copyright
-
-                - Common entities on w3schools
-                  - https://www.w3schools.com/html/html_entities.asp
-                ref: https://dev.w3.org/html5/html-author/charref
-            -->
         </dl>
       </div>
     </section>
@@ -168,35 +120,37 @@
     <aside>
       <h3>Additional Resources</h3>
       <ul>
-        <!-- These hyperlink indicates that these are links to resources on the web
-          target attribute indicates to open the webpage in a new tab -->
         <li>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+            target="_blank"
             >HTML Reference on MDN Web Docs</a
           >
         </li>
         <li>
-          <a href="https://www.w3schools.com/html/default.asp"
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank"
             >HTML Tutorial on W3schools</a
           >
         </li>
         <li>
-          <a href="https://www.w3docs.com/learn-html.html"
+          <a href="https://www.w3docs.com/learn-html.html" target="_blank"
             >Learn HTML on w3docs</a
           >
         </li>
-        <li><a href="https://validator.w3.org/">HTML Validator</a></li>
         <li>
-          <a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a>
+          <a href="https://validator.w3.org/" target="_blank">HTML Validator</a>
+        </li>
+        <li>
+          <a href="https://jigsaw.w3.org/css-validator/" target="_blank"
+            >CSS Validator</a
+          >
         </li>
       </ul>
     </aside>
-    <footer>
+    <footer class="footer">
       <address>
-        <!-- This hyperlink indicates that this is an email address -->
         <a href="mailto:me@memyselfandi.com">me@memyselfandi.com</a><br />
 
-        <!-- This hyperlink indicates that this is a phone number -->
         <a href="tel:+15555555555">(555) 555-5555</a>
 
         <p>
@@ -205,13 +159,8 @@
         </p>
       </address>
 
-      <!-- Notice the copyright symbol here. 
-          Go to the file 2_inserting-emojis-and-symbols.txt in your resources folder to learn how to insert emojis and symbols
-      -->
+      <p class="copyright">© 2022 Web Design 1</p>
 
-      <p>© 2022 Web Design 1</p>
-
-      <!-- This hyperlink links to a section on the same page. Clicking on this link will jump to that element that has the id of #top -->
       <a href="#top">Go to Top</a>
     </footer>
   </body>
