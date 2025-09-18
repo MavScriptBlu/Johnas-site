@@ -25,6 +25,10 @@ header h1 {
   font-size: 32px;
 }
 
+abbr[title] {
+  text-decoration: none;
+}
+
 /* Article styles for fundamentals pages */
 article img {
   border: 2px outset gray;
@@ -38,7 +42,6 @@ h2 {
   color: #840029; /* Primary color 1 */
   margin-top: 20px;
   margin-bottom: 10px;
-  border-bottom: 2px dashed #333;
   padding-bottom: 5px;
 }
 
@@ -168,7 +171,6 @@ header h1 {
   font-size: 36px;
   margin: 0;
   padding-bottom: 10px;
-  border-bottom: 2px solid #414042;
 }
 
 header img {
@@ -207,7 +209,6 @@ h2 {
   color: #840029; /* Primary color 1 */
   margin-top: 20px;
   margin-bottom: 10px;
-  border-bottom: 2px dashed #333;
   padding-bottom: 5px;
 }
 
@@ -277,10 +278,6 @@ body.week2practice h2 {
 /* Text and list styling for week2practice.html */
 body.week2practice p {
   font-size: 17px;
-  margin: 14px 0;
-}
-
-body.week2practice ul {
   margin: 14px 0;
 }
 

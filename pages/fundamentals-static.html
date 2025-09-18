@@ -2,21 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Fundamentals</title>
-
     <link rel="icon" href="../images/icons/tinyHome.png" type="image/png" />
     <link rel="stylesheet" href="../css/master.css" />
+    <link rel="stylesheet" href="../css/fundamentals.css" />
   </head>
   <body>
     <header id="top">
       <div class="logo-title">
-        <img src="../images/icons/tinyHome.png" alt="logo" class="logo" />
-        <div class="header-title">
+        <div class="text-container">
           <h1>HTML Fundamentals</h1>
         </div>
+        <div class="header-title">
+          <img src="../images/icons/tinyHome.png" alt="Logo" class="logo" />
+        </div>
       </div>
-
       <nav class="header-nav">
         <ul>
           <li>
@@ -27,7 +28,7 @@
           </li>
           <li>
             <a href="#" class="active">
-              <img src="../images/icons/tinyHome.png" alt="" class="nav-icon" />
+              <img src="../images/icons/tinyHome.svg" alt="" class="nav-icon" />
               <span>Fundamentals-Static</span>
             </a>
           </li>
@@ -46,120 +47,121 @@
         </ul>
       </nav>
     </header>
-      <img src="../images/wd1.png" alt="logo" class="logo" />
 
-      <h1 class="header-title">Web Design</h1>
-    </header>
+    <main>
+      <section>
+        <div>
+          <h2>
+            <abbr title="HyperText Markup Language">HTML</abbr> Fundamentals
+          </h2>
 
+          <p>
+            HTML describes a document's content and structure and not its
+            appearance
+          </p>
+          <p>
+            Browser read and renders a page from top to bottom, so place elements
+            in the proper order.
+          </p>
+        </div>
+        <div>
+          <h3>Things to be aware of</h3>
+          <ol>
+            <li>
+              The browser doesn't care about whitespace in the markup file,
+              therefore, we format the markup so that it is human readable.
+            </li>
+            <li>
+              Comments can be added in the document and the browser will not
+              render it.
+            </li>
+            <li>Some tags have been deprecated so don't use them.</li>
+            <li>
+              Follow the latest common practice and be aware when copying and
+              pasting old markup.
+            </li>
+            <li>Check for browser compatibility on the newer stuff.</li>
+            <li>
+              Browsers have built-in styles. CSS is used to style a webpage.
+            </li>
+            <li>
+              Understand if an element is a block element or an inline element.
+            </li>
+            <li>
+              Use grouping elements to group content so its easier to position and
+              style the content on the web page.
+            </li>
+            <li>
+              <strong>The most important thing</strong> is that browsers will not
+              catch your markup mistakes. It will try to still render the content
+              and it might still look right.
+            </li>
+          </ol>
+        </div>
+        <div>
+          <h3>Character Sets and Special Characters</h3>
 
+          <dl>
+            <dt>Character Set</dt>
+            <dd>
+              A collection of characters and symbols rendered by the browser
+            </dd>
+            <dt>Character Encoding</dt>
+            <dd>
+              Associates each character from a character set that can be stored
+              and read by a computer program
+            </dd>
+            <dt>Character Entity Reference</dt>
+            <dd>
+              Used to insert special symbols that are reserved characters in HTML
+              or has no keyboard entry
+            </dd>
+            <dd>
+              Examples: <span>Non-breaking space: &nbsp;&nbsp;&nbsp;&nbsp;</span
+              ><span>Copyright: &copy;</span>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <article>
+        <h3>Quote of the day</h3>
+        <blockquote>
+          It does not matter how slow you go, as long as you do not stop
+        </blockquote>
+        <cite>- Confucius</cite>
+        <h3>Images of the day</h3>
+        <img src="../images/tree.JPG" alt="tree" />
+        <img src="../images/cloud.JPG" alt="cloud" />
+      </article>
+      <aside>
+        <h3>Additional Resources</h3>
+        <ul>
+          <li>
+            <a href="pages/fundamentals-static.html">fundamentals-static</a>
+          </li>
+        </ul>
+      </aside>
+    </main>
 
-    <section>
-      <div>
-        <h2>
-          <abbr title="HyperText Markup Language">HTML</abbr> Fundamentals
-        </h2>
-
-        <p>
-          HTML describes a document's content and structure and not its
-          appearance
-        </p>
-        <p>
-          Browser read and renders a page from top to bottom, so place elements
-          in the proper order.
-        </p>
-      </div>
-      <div>
-        <h3>Things to be aware of</h3>
-        <ol>
-          <li>
-            The browser doesn't care about whitespace in the markup file,
-            therefore, we format the markup so that it is human readable.
-          </li>
-          <li>
-            Comments can be added in the document and the browser will not
-            render it.
-          </li>
-          <li>Some tags have been deprecated so don't use them.</li>
-          <li>
-            Follow the latest common practice and be aware when copying and
-            pasting old markup.
-          </li>
-          <li>Check for browser compatibility on the newer stuff.</li>
-          <li>
-            Browsers have built-in styles. CSS is used to style a webpage.
-          </li>
-          <li>
-            Understand if an element is a block element or an inline element.
-          </li>
-          <li>
-            Use grouping elements to group content so its easier to position and
-            style the content on the web page.
-          </li>
-          <li>
-            <strong>The most important thing</strong> is that browsers will not
-            catch your markup mistakes. It will try to still render the content
-            and it might still look right.
-          </li>
-        </ol>
-      </div>
-      <div>
-        <h3>Character Sets and Special Characters</h3>
-
-        <dl>
-          <dt>Character Set</dt>
-          <dd>
-            A collection of characters and symbols rendered by the browser
-          </dd>
-          <dt>Character Encoding</dt>
-          <dd>
-            Associates each character from a character set that can be stored
-            and read by a computer program
-          </dd>
-          <dt>Character Entity Reference</dt>
-          <dd>
-            Used to insert special symbols that are reserved characters in HTML
-            or has no keyboard entry
-          </dd>
-          <dd>
-            Examples: <span>Non-breaking space: &nbsp;&nbsp;&nbsp;&nbsp;</span
-            ><span>Copyright: &copy;</span>
-          </dd>
-        </dl>
-      </div>
-    </section>
-    <article>
-      <h3>Quote of the day</h3>
-      <blockquote>
-        It does not matter how slow you go, as long as you do not stop
-      </blockquote>
-      <cite>- Confucius</cite>
-      <h3>Images of the day</h3>
-      <img src="../images/tree.JPG" alt="tree" />
-      <img src="../images/cloud.JPG" alt="cloud" />
-    </article>
-    <aside>
-      <h3>Additional Resources</h3>
-      <ul>
-        <li>
-          <a href="pages/fundamentals-static.html">fundamentals-static</a>
-        </li>
-      </ul>
-    </aside>
-    <footer class="footer">
+    <footer>
       <address>
         <a href="mailto:me@memyselfandi.com">me@memyselfandi.com</a><br />
-
         <a href="tel:+15555555555">(555) 555-5555</a>
-
         <p>
           555 Fake Street South<br />
           My City, ST 12345
         </p>
       </address>
-
-      <p class="copyright">© 2022 Web Design 1</p>
-
-      <a href="#top">Go to Top</a>
+      <p>&copy; 2022 Web Design 1</p>
+      <a href="#top">Go to Top</a><p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+          <img
+            class="css-validator-badge"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!"
+          />
+        </a>
+      </p>
     </footer>
   </body>
 </html>
