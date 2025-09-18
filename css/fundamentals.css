@@ -1,0 +1,331 @@
+/* ========== SHARED STYLES FOR FUNDAMENTALS.HTML AND FUNDAMENTALS-STATIC.HTML ========== */
+/* These styles apply to both fundamentals pages and are not in master.css */
+
+/* General body styling for fundamentals pages */
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling for fundamentals pages */
+header {
+  background-color: #d3e4f3;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+header h1 {
+  color: #840029; /* Primary color 1 */
+  margin: 0;
+  font-size: 32px;
+}
+
+/* Article styles for fundamentals pages */
+article img {
+  border: 2px outset gray;
+  padding: 1px;
+  margin: 3px;
+}
+
+/* Section heading styles for fundamentals pages */
+h2 {
+  font-size: 28px;
+  color: #840029; /* Primary color 1 */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px dashed #333;
+  padding-bottom: 5px;
+}
+
+/* Paragraph and text styles for fundamentals pages */
+p {
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+/* Ordered list styles for fundamentals pages */
+ol {
+  margin-left: 20px;
+}
+
+ol li {
+  margin-bottom: 5px;
+}
+
+/* General section and article styling */
+article h2 {
+  margin-top: 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+/* Footer styles for fundamentals pages */
+footer {
+  background-color: #414042;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+/* ========== FUNDAMENTALS.HTML SPECIFIC STYLES ========== */
+/* Styles that are unique to fundamentals.html only */
+
+/* Image styling for fundamentals.html image gallery */
+#tree-img {
+  width: 190px;
+  height: 250px;
+}
+
+#cloud-img {
+  width: 275px;
+  height: 200px;
+}
+
+/* Special list styling for fundamentals.html */
+.list-lastitem-lightbulb {
+  /* Styling for ordered list with lightbulb theme */
+  margin-left: 20px;
+}
+
+.heading-bold {
+  /* Bold heading style for fundamentals.html sections */
+  font-weight: bold;
+  color: #840029;
+}
+
+.resources-ul-internet-img {
+  /* Resource list with internet image styling */
+  list-style-image: url(../images/icons/favicon.png);
+  list-style-position: inside;
+}
+
+/* Generic resource list fallback */
+ul.resources > li {
+  list-style-image: url(../images/icons/favicon.png);
+  list-style-position: inside;
+}
+
+/* ========== FUNDAMENTALS-STATIC.HTML SPECIFIC STYLES ========== */
+/* Styles that are unique to fundamentals-static.html only */
+
+/* Logo styling for fundamentals-static.html header */
+.logo {
+  /* Styling for the main logo image */
+  max-width: 100px;
+  height: auto;
+}
+
+/* Header title styling for fundamentals-static.html */
+.header-title {
+  color: #840029;
+  margin: 10px 0;
+  font-size: 32px;
+}
+
+/* Footer specific styling for fundamentals-static.html */
+.footer {
+  background-color: #414042;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* Copyright text styling for fundamentals-static.html */
+.copyright {
+  margin: 0;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+/* General styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* Light background for the entire page */
+  color: #333; /* Dark text color for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #d3d8e8; /* Light blue background color for header */
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #414042;
+}
+
+header img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* Article styles */
+article img {
+  border: 2px outset gray;
+  padding: 1px;
+  margin: 3px;
+}
+
+/* Resource list styles */
+ul.resources > li {
+  list-style-image: url(../images/icons/favicon.png);
+  list-style-position: inside;
+}
+
+/* Image styling */
+#tree-img {
+  width: 190px;
+  height: 250px;
+}
+
+#cloud-img {
+  width: 275px;
+  height: 200px;
+}
+
+/* Section heading styles */
+h2 {
+  font-size: 28px;
+  color: #840029; /* Primary color 1 */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px dashed #333;
+  padding-bottom: 5px;
+}
+
+/* Paragraph and text styles */
+p {
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+/* Ordered list styles */
+ol {
+  margin-left: 20px;
+}
+
+ol li {
+  margin-bottom: 5px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #414042;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin-top: 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+/* ========== WEEK2PRACTICE.HTML SPECIFIC STYLES ========== */
+/* Dark theme page-specific styling for week2practice.html only */
+
+/* Base page styling - dark theme for week2practice.html */
+body.week2practice {
+  font-family: "Georgia", serif;
+  background-color: #1f1f1f;
+  color: #c2e5f2;
+  margin: 0;
+}
+
+/* Heading styles - unique dark theme colors for week2practice.html */
+body.week2practice h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 24px 0 8px;
+  color: #deb1bd;
+  border-bottom: none; /* Remove inherited border-bottom */
+}
+
+body.week2practice h2 {
+  font-size: 26px;
+  margin: 20px 0 12px;
+  color: #00a3b1;
+}
+
+/* Text and list styling for week2practice.html */
+body.week2practice p {
+  font-size: 17px;
+  margin: 14px 0;
+}
+
+body.week2practice ul {
+  margin: 14px 0;
+}
+
+body.week2practice li {
+  margin: 8px 0;
+}
+
+/* Link styling for week2practice.html dark theme */
+body.week2practice a {
+  color: #f2a7bb;
+}
+
+body.week2practice a:hover {
+  color: #f2d5dd;
+}
+
+/* Main header styling - unique to week2practice.html */
+#main-header {
+  background-color: #00a3b1;
+  text-align: center;
+  padding: 32px 16px;
+  margin: 0;
+  color: #f0f0f0;
+}
+
+/* Card section styling - reusable for week2practice.html content blocks */
+.card-section {
+  background-color: #2a2a2a;
+  padding: 24px;
+  margin: 20px auto;
+}
+
+/* Footer styling for week2practice.html dark theme */
+body.week2practice footer {
+  background-color: #2a2a2a;
+  color: #a2f2dc;
+  text-align: center;
+  padding: 20px;
+  margin: 32px 0 0;
+  font-size: 0.9rem;
+}
+
+/* Tagline styling for week2practice.html footer */
+.tagline {
+  font-size: 0.8em;
+  margin-top: 10px;
+  color: #c2e5f2;
+}

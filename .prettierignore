@@ -23,3 +23,5 @@ yarn.lock
 
 # Git files
 .gitignore
+CODING_NOTES.md
+
